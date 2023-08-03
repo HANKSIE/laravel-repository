@@ -1,0 +1,23 @@
+{
+  "name": "hanksie/laravel-repository",
+  "description": "repository pattern in laravel",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Hank Sie",
+      "email": "hank21014@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hanksie\\Repository\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "7.x"
+  }
+}
